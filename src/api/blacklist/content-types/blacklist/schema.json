@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blacklists",
+  "info": {
+    "singularName": "blacklist",
+    "pluralName": "blacklists",
+    "displayName": "blacklist",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "celular": {
+      "type": "string",
+      "default": "593",
+      "required": true,
+      "unique": true,
+      "maxLength": 12,
+      "minLength": 12,
+      "regex": "5939"
+    }
+  }
+}

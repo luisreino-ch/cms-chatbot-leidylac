@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prompts",
+  "info": {
+    "singularName": "prompt",
+    "pluralName": "prompts",
+    "displayName": "prompt",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tema": {
+      "type": "string",
+      "required": true
+    },
+    "contexto": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
