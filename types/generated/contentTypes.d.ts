@@ -845,6 +845,7 @@ export interface ApiClienteCliente extends Schema.CollectionType {
     fecha: Attribute.DateTime & Attribute.Required;
     negocio: Attribute.Enumeration<['Tienda', 'Local', 'Emprendimiento']> &
       Attribute.Required;
+    cedula: Attribute.String & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -888,6 +889,7 @@ export interface ApiPedidoPedido extends Schema.CollectionType {
     despachado: Attribute.Boolean &
       Attribute.Required &
       Attribute.DefaultTo<false>;
+    cedula: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

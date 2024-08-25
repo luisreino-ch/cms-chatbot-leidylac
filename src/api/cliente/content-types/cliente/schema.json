@@ -37,6 +37,10 @@
         "Emprendimiento"
       ],
       "required": true
+    },
+    "cedula": {
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -41,6 +41,9 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "cedula": {
+      "type": "string"
     }
   }
 }
